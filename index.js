@@ -90,3 +90,60 @@ console.log(mahi2);
 // add new object
 let rmahi = student2.cinama = 'ww242';
 console.log(student2);
+
+convart kilometer to meter
+function kelometerToMeter(kelometer){
+    if(kelometer < 0){
+        return "please enter you positive number"; 
+    }else{
+        let meter = kelometer * 1000;
+        return meter;
+    }
+}
+console.log(kelometerToMeter(3));
+
+factorial
+let i = 1;
+let factorial = 1;
+while(i <= 10){
+    factorial = factorial * i;
+    // console.log(i, factorial);
+    i++
+    
+}
+console.log(i, factorial);
+
+function factorial(number){
+    let i = 1;
+    let factorial = 1;
+    while(i <= number){
+        factorial = factorial * i;
+        // console.log(i, factorial);
+        i++
+    }
+    return factorial;
+}
+var result = factorial(6);
+console.log(result);
+
+function factorial(num){
+    let i = 1;
+    let fact = 1;
+    while(i <= num){
+        fact = fact * 1;
+        i++
+    }
+    return fact;
+}
+let result = factorial(5);
+console.log(result);
+
+ function factorial(n){
+     let fact = 1;
+     for(let i = 1; i <= n; i++){
+        fact = fact * i;
+     }
+     return fact;
+ }
+ let result = factorial(77)
+ console.log(result)
