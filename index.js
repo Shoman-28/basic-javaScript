@@ -191,3 +191,94 @@ function fibonacci(n){
 }
 let result = fibonacci(10);
 console.log(result);
+
+################# javaScript problem ###############
+
+var a = 4;
+var b = 5;
+console.log("before swap: a =", a, "b =", b);
+var temp = a;
+var a = b;
+var b = a;
+console.log("after swap: a =", a, "b =", b)
+ var x = 5;
+ var y = 3;
+ x = x + y;
+ y = x - y;
+ x = x - y;
+ console.log("after swap: x =", x, "y =", y);
+  var p = 4;
+  var q = 3;
+  [p, q] = [q, p];
+  console.log("after swap: p =", p, "q =", q);
+
+Array
+
+let arry = [23, 21, 33, 44, 24, 55];
+let sum = 0;
+for(i = 0; i < arry.length; i++){
+   var element = arry[i];
+    sum = sum + element;
+}
+console.log(sum);
+function array(number){
+    
+    let sum = 0;
+    for(i = 0; i < number.length; i++){
+    var element = number[i];
+        sum = sum + element;
+    }
+    return sum;
+
+}
+let number = [23, 21, 33, 44, 24, 55];
+let result = array(number);
+console.log(result);
+
+let total = array([20, 40, 45, 60, 50, 40, 45, 60,]);
+console.log(total);
+
+uniqueName
+let name = [20, 40, 45, 60, 50, 40, 45, 60,];
+let uniqueName = [];
+for( let i = 0; i < name.length; i++){
+    let element = name[i];
+    let index = uniqueName.indexOf(element);
+    if(index == -1){
+        uniqueName.push(element);
+    }
+}
+console.log(uniqueName);
+
+function uniqueNumber(name){
+    
+    let uniqueName = [];
+    for( let i = 0; i < name.length; i++){
+        let element = name[i];
+        let index = uniqueName.indexOf(element);
+        if(index == -1){
+            uniqueName.push(element);
+        }
+    }
+    return uniqueName;
+    
+}
+let name = [20, 40, 45, 60, 50, 40, 45, 60,];
+let number = uniqueNumber(name);
+console.log(number);
+
+ reverse
+ 
+function forAlien(str){
+    let reverse = "";
+    for(let i = 0; i < str.length; i++){
+        let char = str[i];
+         reverse = char + reverse;
+    }
+    return reverse;
+}
+let statement = "Hello, I am Shoman";
+// let result = forAlien(statement);
+// console.log(result)
+
+console.log(forAlien(statement))
